@@ -8,7 +8,7 @@ import pygwalker as pyg
 import pandas as pd
 
 #Setting up web app page
-st.set_page_config(page_title='PragyanAI's Exploratory Data Analysis App', page_icon=None, layout="wide")
+st.set_page_config(page_title='PragyanAI Exploratory Data Analysis App', page_icon=None, layout="wide")
 
 #Creating section in sidebar
 st.sidebar.write("****A) File upload****")
