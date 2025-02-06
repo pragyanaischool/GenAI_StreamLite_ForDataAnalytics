@@ -42,7 +42,7 @@ if uploaded_file is not None:
             sys.exit()
 
     #Caching function to load data
-    @st.cache_data(experimental_allow_widgets=True)
+    @st.cache_data()
     def load_data(file_path,ft,sh,h):
         
         if ft == 'Excel':
